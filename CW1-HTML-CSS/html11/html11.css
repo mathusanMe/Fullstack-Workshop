@@ -1,0 +1,41 @@
+body {
+    background-color: lightblue;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 300px);
+}
+
+article {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    overflow: scroll;
+    padding: 5px;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.four {
+    grid-column: 2;
+    grid-row: 2;
+}
