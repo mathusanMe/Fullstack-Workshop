@@ -1,0 +1,11 @@
+#parent {
+    width: 300px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#enfant {
+    position: relative; /* Static invalidates top and left */
+    top: 20px;
+    left: 20px;
+}
