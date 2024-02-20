@@ -1,0 +1,21 @@
+#parent {
+    position: relative;
+    width: 300px;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/* 
+    The child element if positive is absolute, it will be positioned based on the nearest positioned ancestor
+    with non static position. Here is it the parent element. If position was not relative, not specified (then 
+    static), it would be the body.
+*/
+
+#enfant {
+    position: absolute;
+    right: 30px;
+    top: -10px;
+    background-color: red;
+}
