@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>html2</title>
+    </head>
+    <body>
+        <form method="post" >
+            <fieldset>
+                <legend>Coordonnées</legend>
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom">
+                <label for="mdp">Mot de passe</label>
+                <input type="password" name="mdp" id="mdp">
+            </fieldset>
+            <fieldset>
+                <legend>Un ou plusieurs choix d'aliments</legend>
+                <input type="checkbox" name="aliments" id="frites">
+                <label for="frites">Frites</label>
+                <input type="checkbox" name="aliments" id="pâtes">
+                <label for="pâtes">Pâtes</label>
+                <input type="checkbox" name="aliments" id="épinards">
+                <label for="épinards">Épinards</label>
+                <input type="checkbox" name="aliments" id="huîtres">
+                <label for="huîtres">Huîtres</label>
+            </fieldset>
+            <fieldset>
+                <legend>Un choix d'aliment unique parmi plusieurs</legend>
+                <select name="ualiment">
+                    <option value="bavette">Bavette</option>
+                    <option value="steak">Steak</option>
+                    <option value="poulet">Poulet</option>
+                    <option value="canard">Canard</option>
+                </select>
+            </fieldset>
+            <input type="submit">
+        </form>
+    </body>
+</html>
