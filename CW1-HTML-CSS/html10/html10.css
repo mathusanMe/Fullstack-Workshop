@@ -1,0 +1,15 @@
+#first {
+    background-color: red;
+    z-index: 10;
+}
+
+#second {
+    background-color: blue;
+}
+
+div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0;
+}
