@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    align-items: flex-start;
+}
+
+#left {
+    width: 100px;
+}
+
+#right {
+    width: 100px;
+}
