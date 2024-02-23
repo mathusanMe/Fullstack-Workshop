@@ -10,7 +10,7 @@
     <body>
         <div class="container">
             <h1>Formulaire d'inscription</h1>
-            <form class="multi-column-form" method="post">
+            <form class="multi-column-form">
                 <div class="form-group">
                     <label for="etat-civil">État civil</label>
                     <select id="etat-civil" name="etat-civil">
@@ -40,7 +40,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="niveau-en-javascript">Niveau en Javascript</label>
+                    <label id="niveau-en-javascript-label" for="niveau-en-javascript">Niveau en Javascript</label>
                     <input type="range" id="niveau-en-javascript" name="niveau-en-javascript" min="0" max="10">
                 </div>
 
@@ -71,7 +71,7 @@
 
                 <div class="form-button-group">
                     <button type="reset">Réinitialiser</button>
-                    <button type="submit">Envoyer</button>
+                    <button id="submit" type="submit">Envoyer</button>
                 </div>
             </form>
         </div>
