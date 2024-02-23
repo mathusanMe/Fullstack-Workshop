@@ -1,0 +1,8 @@
+#container {
+    width: 50%;
+    margin: 0 auto;
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    text-align: center;
+}
