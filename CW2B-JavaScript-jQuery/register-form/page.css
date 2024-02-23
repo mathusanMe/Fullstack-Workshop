@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form-group {
+    padding: 6px;
+}
+
+.form-group label {
+    font-size: large;
+    color: rgb(43, 43, 43);
+}
+
+.form-group input, select {
+    position: absolute;
+    box-sizing: border-box;
+    width: 50%;
+    right: 0;
+}
+
+.form-group textarea {
+    position: relative;
+    box-sizing: content-box;
+    width: 100%;
+    height: 200px;
+    margin: 6px 0;
+}
+
+.hint-group {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+}
+
+.form-button-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
