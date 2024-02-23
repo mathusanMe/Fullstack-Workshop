@@ -7,3 +7,11 @@ This coursework contains mini-exercises to practice JavaScript and jQuery. Here 
   <br>
   <sub>Divs and Texts</sub>
 </p>
+
+<br>
+
+<p align="center">
+  <img src="images/ex4.jpeg" alt="Slide Toggle and Animate">
+  <br>
+  <sub>Slide Toggle and Animate</sub>
+</p>

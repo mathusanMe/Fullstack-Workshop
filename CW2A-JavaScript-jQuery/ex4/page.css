@@ -1,0 +1,9 @@
+#list {
+    display: none;
+}
+
+#bonjour {
+    opacity: 0;
+    font-size: large;
+    font-weight: bold;
+}
