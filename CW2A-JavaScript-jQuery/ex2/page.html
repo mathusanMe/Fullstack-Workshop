@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Page</title>
+        <script src="../js/jquery-3.7.1.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <p>Ceci est un paragraphe</p>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("p").mouseenter(function() {
+                    $(this).text("Ceci n'est pas un paragraphe");
+                });
+                $("p").mouseleave(function() {
+                    $(this).text("Ceci est un paragraphe");
+                });
+            });
+        </script>
+    </body>
+</html>
