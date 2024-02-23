@@ -9,3 +9,25 @@ This coursework is the second part of two courseworks containing mini-exercises 
 </p>
 
 <br>
+
+<p align="center">
+  <img src="images/invalid-form.png" alt="Invalid Form">
+  <br>
+  <sub>Registration Form</sub>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="images/valid-form.png" alt="Valid Form">
+  <br>
+  <sub>Registration Form</sub>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="images/after-validation.png" alt="Page after validating form">
+  <br>
+  <sub>Page after validating form</sub>
+</p>
