@@ -1,0 +1,15 @@
+.visible {
+    display: inline;
+}
+
+.invisible {
+    display: none;
+}
+
+.container:hover .visible {
+    display: none;
+}
+
+.container:hover .invisible {
+    display: inline;
+}
