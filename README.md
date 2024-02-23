@@ -6,3 +6,4 @@ This is a workshop for fullstack development built around my coursework from the
 ## Table of Contents
 - [Coursework 1: HTML and CSS](CW1-HTML-CSS/README.md)
 - [Coursework 2A: JavaScript and jQuery](CW2A-JavaScript-jQuery/README.md)
+- [Coursework 2B: JavaScript and jQuery](CW2B-JavaScript-jQuery/README.md)
