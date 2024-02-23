@@ -15,3 +15,11 @@ This coursework contains mini-exercises to practice JavaScript and jQuery. Here 
   <br>
   <sub>Slide Toggle and Animate</sub>
 </p>
+
+<br>
+
+<p align="center">
+  <img src="images/ex5.jpeg" alt="Slideshow">
+  <br>
+  <sub>Slideshow</sub>
+</p>
