@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <header>
+        <img src="/logo-univ.png" alt="logo université" width="200px">
+    </header>
+    <section>
+        <h1>
+            <%= titre %>
+        </h1>
+        <p>
+            <%= descr %>
+        </p>
+    </section>
+    <section>
+        <ul>
+            <% let i; for (i=0; i < enseignants.length; i++) { %>
+                <li>
+                    <%= enseignants[i] %>
+                </li>
+                <% } %>
+        </ul>
+    </section>
+</body>
+
+</html>
