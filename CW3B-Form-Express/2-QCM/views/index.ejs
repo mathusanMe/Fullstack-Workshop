@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>QCM</title>
+</head>
+
+<body>
+    <h1>Question <%= numQuestion + 1 %> sur <%= totalQuestions %>
+    </h1>
+    <% if(erreur) { %>
+        <p>Erreur, recommencez.</p>
+        <% } %>
+            <p>
+                <%= question.question %>
+            </p>
+            <form action="/reponse" method="post">
+                <% question.reponses.forEach((reponse, index)=> { %>
+                    <label>
+                        <input type="radio" name="reponse" value="<%= index %>" required>
+                        <%= reponse %>
+                    </label><br>
+                    <% }) %>
+                        <input type="hidden" name="numQuestion" value="<%= numQuestion %>">
+                        <button type="submit">Soumettre</button>
+            </form>
+</body>
+
+</html>
