@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage</title>
+</head>
+<body>
+    <h1>Détails du voyage</h1>
+    <% if (typeof message != "undefined") { %>
+        <h3><%= message %></h3>
+      <% } %>
+    <p>Destination: <%= voyage.destination %></p>
+    <p>Durée: <%= voyage.duree %> jours</p>
+    <p>Coût: <%= voyage.cout %> €</p>
+</body>
+</html>
