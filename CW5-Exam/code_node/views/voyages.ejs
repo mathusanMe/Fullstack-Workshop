@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage</title>
+</head>
+<body>
+    <h1>Toutes les destinations</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>Destination</td>
+                <td>duree</td>
+                <td>cout</td>
+            </tr>
+        </thead>
+        <tbody>
+            <% for(var i=0; i<voyages.length; i++) {%>
+                <tr>
+                <td><a href="/voyage/<%= voyages[i].destination %>"><%= voyages[i].destination %></a></td>
+                <td><%= voyages[i].duree %> jours</td>
+                <td><%= voyages[i].cout %></td>
+                </tr>
+             <% } %>
+        </tbody>
+    </table>
+</body>
+</html>
